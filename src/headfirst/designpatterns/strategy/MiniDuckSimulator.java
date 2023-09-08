@@ -27,5 +27,9 @@ public class MiniDuckSimulator {
 		AkitaLnuDog akitaLnuDog = new AkitaLnuDog();
 		System.out.print("AkitaLnuDog( bark ): ");
 		akitaLnuDog.performBark();
+
+		akitaLnuDog.setBarkBehavior(new BarkMute());
+		System.out.print("AkitaLnuDog( bark ): ");
+		akitaLnuDog.performBark();
 	}
 }

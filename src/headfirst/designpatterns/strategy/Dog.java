@@ -6,4 +6,7 @@ public abstract class Dog {
     public void performBark() {
         barkBehavior.bark();
     }
+    public void setBarkBehavior(BarkBehavior bk) {
+        barkBehavior = bk;
+    }
 }

@@ -19,5 +19,13 @@ public class MiniDuckSimulator {
 		model.performFly();	
 		model.setFlyBehavior(new FlyRocketPowered());
 		model.performFly();
+
+		LabradorDog labradorDog = new LabradorDog();
+		System.out.print("LabradorDog( bark ): ");
+		labradorDog.performBark();
+
+		AkitaLnuDog akitaLnuDog = new AkitaLnuDog();
+		System.out.print("AkitaLnuDog( bark ): ");
+		akitaLnuDog.performBark();
 	}
 }
